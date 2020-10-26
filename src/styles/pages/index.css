@@ -1,0 +1,39 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.container{
+	background: rgb(51, 51, 51);
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.input{
+	visibility: hidden;
+	appearance: none;
+
+}
+
+#label{
+	width: 100px;
+	height: 100px;
+}
+
+.preview{
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+.submit{
+	height: 80px;
+	width: 80px;
+	border-radius: 10px;
+	border: none;
+}
